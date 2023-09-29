@@ -1,0 +1,212 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1070px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    background-color: rgba(58, 227, 233, 0.966);
+    /* background: url(images/Tan.jpg); */
+}
+#header{
+    height: 100px;
+    padding: 10px 0 ;
+}
+#brand{
+    float: left;
+}
+
+h1 a{
+    font-size: 32px;
+    font-weight: 100;
+    /* font-family: ; */
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+}
+
+#searchBox{
+    float: right;
+    background: linear-gradient(#f092c6, #e953e2);
+    background: -webkit-linear-gradient(#f092c6, #e953e2);
+    background: -moz-linear-gradient(#f092c6, #e953e2);
+    background: -o-linear-gradient(#f092c6, #e953e2);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    background: white url(images/search.png) right center no-repeat;
+    border: 1px solid #5DA0E7;
+    
+}
+
+.submit{
+    float: right;
+    padding: 2px;
+    font-weight: bold;
+    color: white;
+    background: rgb(183, 43, 226);
+    font-size: 26px;
+
+}
+.clear{
+    clear: both;
+}
+
+#menu {
+    height: 70px;
+    background: linear-gradient(#f092c6, #e953e2);
+    background: -webkit-linear-gradient(#f092c6, #e953e2);
+    background: -moz-linear-gradient(#f092c6, #e953e2);
+    background: -o-linear-gradient(#f092c6, #e953e2);
+    padding: 7px 0;
+}
+ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    padding: 0 30px ;
+    height: 20px;
+    border-right: 1px solid rgb(151, 5, 209);
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+    line-height: 20px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(156, 8, 65);
+}
+
+#introduction{
+    background: linear-gradient(#f092c6, #53a1e9);
+    background: -webkit-linear-gradient(#f092c6, #53a1e9);
+    background: -moz-linear-gradient(#f092c6, #53a1e9);
+    background: -o-linear-gradient(#f092c6, #53a1e9);
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3{
+    font-size: 39px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#introduction p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 3px solid #5DA0E7;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.sidebar h3{
+    color: rgb(183, 43, 226);
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sidebar ul{
+    padding-top: 13px;
+}
+
+#leftsidebar ul li{
+    padding: 10px 0px 6px 10px;
+    list-style-image: url(images/right\ arrow\ 1.png);
+}
+
+#rightsidebar ul li{
+    padding: 16px 0px 18px  70px;
+    background: url(images/tick.png) no-repeat left center;
+}
+
+#rightsidebar{
+    background-image: url(images/Tan.jpg);
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #f092e0;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #f092e0;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.s ease;
+
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
+}
+/* .sidebar{
+    background: url(images/search.png);
+} */
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#f092c6, #e953e2);
+    background: -webkit-linear-gradient(#f092c6, #e953e2);
+    background: -moz-linear-gradient(#f092c6, #e953e2);
+    background: -o-linear-gradient(#f092c6, #e953e2);
+    padding: 10px 30px;
+    margin-top: 10px;
+}
